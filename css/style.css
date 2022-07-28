@@ -1,0 +1,9 @@
+.image img{
+    filter: brightness(50%);
+}
+@media only screen and (max-width:768){
+    .image img{
+        height: 1000px;
+    }
+    
+}

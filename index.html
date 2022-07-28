@@ -10,6 +10,7 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -35,7 +36,7 @@
               class="collapse navbar-collapse d-flex justify-content-center"
               id="navbarNav"
             >
-              <ul class="navbar-nav">
+              <ul class="navbar-nav d-none d-lg-flex">
                 <li class="nav-item mx-4">
                   <a class="nav-link active" aria-current="page" href="#"
                     >Home</a
@@ -58,29 +59,29 @@
                 </li>
               </ul>
             </div>
-            <button class="btn btn-outline-primary px-4">Register</button>
+            <button class="btn btn-outline-primary px-4 d-none d-md-flex">Register</button>
           </div>
         </nav>
       </section>
       <!-- website slider -->
-      <section class="container mb-5">
+      <section class="container container-fluid mb-5">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
           data-bs-ride="false"
         >
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active image">
               <img
-                src="images/cover/Untitled.jpeg"
-                class="d-block w-100 $carousel-control-opacity:.5;"
+                src="images/cover/cover-1.png"
+                class="d-block w-100"
                 alt="..."
               />
               <div
                 class="carousel-caption d-flex flex-column justify-content-center h-100"
               >
                 <p class="fs-1 text fw-bold">Get Started Digital</p>
-                <p class="fs-1 text fw-bold">Learning</p>
+               <p class="fs-1 text fw-bold">Learning</p> 
                 <p>
                   It is a long established fact that a reader will be distracted
                   by the
@@ -92,8 +93,10 @@
                   </button>
                 </p>
               </div>
+             
+              </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item image">
               <img
                 src="images/cover/cover-2.jpg"
                 class="d-block w-100"
@@ -102,7 +105,7 @@
               <div
                 class="carousel-caption d-flex flex-column justify-content-center h-100"
               >
-                <p class="fs-1 text fw-bold">Get Started Digital</p>
+              <p class="fs-1 text fw-bold ">Get Started Digital</p>
                 <p class="fs-1 text fw-bold">Learning</p>
                 <p>
                   It is a long established fact that a reader will be distracted
@@ -113,10 +116,11 @@
                   <button class="btn btn-primary px-4 fw-semibold">
                     Get Started
                   </button>
+                
                 </p>
               </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item image">
               <img
                 src="images/cover/cover-3.jpg"
                 class="d-block w-100"
